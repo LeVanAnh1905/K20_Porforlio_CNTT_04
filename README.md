@@ -1,54 +1,37 @@
-# Portfolio cá nhân - Lab 5
+# Portfolio cá nhân – Lab 5
 
-- **Tên sản phẩm:** Portfolio cá nhân (Lab 5 - HTML5 và CSS3)
-- **Tác giả:** Lê Vân Anh (trên trang giới thiệu là "Vân Ahn"); hồ sơ GitHub: [LeVanAnh1905](https://github.com/LeVanAnh1905).
-- **Mô tả:** Website portfolio tĩnh giới thiệu cá nhân, kỹ năng, dự án và lộ trình học tập. Có bố cục responsive, điều hướng theo mục, trạng thái focus cho bàn phím và form kiểm tra dữ liệu ở phía trình duyệt.
+## Sản phẩm này là gì?
 
-## Liên kết
+Đây là website portfolio tĩnh giới thiệu Lê Vân Anh, các kỹ năng HTML/CSS, ba bài thực hành và lộ trình học tập. Sản phẩm được làm bằng HTML5 và CSS3 cho bài Lab 5.
 
-- **Mã nguồn:** [GitHub repository](https://github.com/LeVanAnh1905/K20_Porforlio_CNTT_04)
-- **Website:** [GitHub Pages](https://levananh1905.github.io/K20_Porforlio_CNTT_04/)
-- **Hồ sơ trên sản phẩm:** [Giới thiệu](https://levananh1905.github.io/K20_Porforlio_CNTT_04/#gioi-thieu)
-- **Minh chứng Lab 5:** [kiem-tra-lab5.txt](kiem-tra-lab5.txt)
-- **Nhật ký AI:** [AI_LOG.md](AI_LOG.md)
-- **Ghi chú bàn giao:** [RELEASE_NOTES.md](RELEASE_NOTES.md)
+## Demo
 
-GitHub Pages đã được mở kiểm tra ngày 2026-10-30. Trang web là bản đã xuất bản; thay đổi đang có trong máy nhưng chưa commit/push có thể chưa xuất hiện trên Pages.
+[Mở website portfolio trên GitHub Pages](https://levananh1905.github.io/K20_Porforlio_CNTT_04/)
 
-## Cấu trúc
+## Tính năng
 
-```text
-.
-|-- index.html          # Portfolio và form liên hệ mô phỏng
-|-- ket-qua.html        # Trang kết quả sau khi gửi form
-|-- css/
-|   `-- style.css       # Giao diện responsive và trạng thái tương tác
-|-- kiem-tra-lab5.txt   # Ghi chú kiểm tra/minh chứng hiện có
-|-- README.md
-|-- AI_LOG.md
-`-- RELEASE_NOTES.md
-```
+Menu giúp chuyển đến các mục Giới thiệu, Kỹ năng, Dự án, Lộ trình và Liên hệ; bố cục điều chỉnh theo kích thước màn hình và hỗ trợ điều hướng bằng bàn phím. Form liên hệ kiểm tra dữ liệu ở trình duyệt và mở trang kết quả mô phỏng.
 
-## Chạy local
+## Cách mở
 
-Không cần cài thư viện hoặc build. Từ thư mục dự án, có thể mở `index.html` trực tiếp; hoặc chạy server tĩnh bằng Python:
+1. Bấm liên kết [Demo](https://levananh1905.github.io/K20_Porforlio_CNTT_04/).
+2. Bấm **Dự án** trên menu đầu trang để xem ba bài thực hành.
+3. Bấm **Liên hệ** trên menu hoặc **Liên hệ với tôi** ở phần Giới thiệu.
+4. Nhập dữ liệu giả vào các trường tên, email và nội dung; nội dung cần dài từ 10 đến 500 ký tự.
+5. Bấm **Kiểm tra biểu mẫu** để xem trang kết quả mô phỏng.
 
-```powershell
-py -m http.server 8000
-```
+## Hạn chế
 
-Sau đó mở <http://localhost:8000/>. Dừng server bằng `Ctrl+C`.
+Form chỉ kiểm tra dữ liệu trên trình duyệt, không gửi email và không lưu thông tin; dữ liệu gửi bằng GET sẽ xuất hiện trên URL. Chỉ dùng dữ liệu giả, không nhập thông tin cá nhân hoặc nhạy cảm.
 
-## Cách kiểm tra
+## Chạy trên máy
 
-1. Mở `index.html` hoặc URL Pages; kiểm tra các liên kết Giới thiệu, Kỹ năng, Dự án, Lộ trình và Liên hệ.
-2. Thu/phóng cửa sổ để xem lưới dự án đổi từ một cột sang hai hoặc ba cột theo chiều rộng màn hình.
-3. Dùng `Tab` và `Shift+Tab` để đi qua liên kết, trường nhập và nút; kiểm tra viền focus nhìn thấy được.
-4. Trong form, thử gửi khi để trống, nhập email sai định dạng, hoặc nội dung ngắn hơn 10 ký tự; trình duyệt sẽ kiểm tra các thuộc tính `required`, `type=email` và `minlength`.
-5. Gửi dữ liệu giả hợp lệ để mở `ket-qua.html`. Form dùng `GET`, nên dữ liệu nằm trên URL; không có email được gửi và không có dữ liệu lưu ở máy chủ. Không nhập thông tin thật hoặc nhạy cảm.
+1. Mở thư mục dự án trong File Explorer.
+2. Nhấp đúp vào tệp `index.html` để mở portfolio trong trình duyệt.
 
-## Xuất bản và trạng thái bàn giao
+## Liên kết khác
 
-Trang được xuất bản bằng GitHub Pages từ repository trên. Mã nguồn hiện có trên GitHub tại commit [`97f4d22`](https://github.com/LeVanAnh1905/K20_Porforlio_CNTT_04/commit/97f4d22d8e8057d9446db4e22959ce984d3fb57c). Các chỉnh sửa tài liệu trong bản làm việc này chưa nằm trong commit đó; hãy cập nhật liên kết commit sau khi commit/push bản bàn giao cuối.
-
-**Lưu ý hồ sơ:** Trang và tài khoản GitHub xác định tác giả là Lê Vân Anh, nhưng `kiem-tra-lab5.txt` hiện ghi tên Bùi Đức Duy và mã sinh viên 2071020057. Hãy xác nhận/đính chính tệp minh chứng trước khi nộp để hồ sơ nhất quán.
+- [Mã nguồn trên GitHub](https://github.com/LeVanAnh1905/K20_Porforlio_CNTT_04)
+- [Minh chứng Lab 5](kiem-tra-lab5.txt)
+- [Nhật ký AI](AI_LOG.md)
+- [Ghi chú bàn giao](RELEASE_NOTES.md)
