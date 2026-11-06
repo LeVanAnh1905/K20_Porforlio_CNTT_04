@@ -2,6 +2,13 @@
 
 Ngày ghi: 2026-10-30
 
+## Ghi nhận Lab 8 – 06/11/2026
+
+- **Công cụ:** GitHub Copilot trong VS Code.
+- **AI hỗ trợ:** Đọc lịch sử commit từ `v7`, biên tập mục V8 trong `CHANGELOG.md` và tạo mẫu ghi kết quả trong `docs/evidence-index.md`.
+- **Giới hạn:** Không thể mở trang bằng trình duyệt trong phiên này; ba lượt thử được ghi là chưa kiểm tra. Không ghi nhận kết quả kiểm thử hoặc ảnh minh chứng chưa có.
+- **Xác nhận:** Người làm cần đọc lại và chỉnh nhật ký nếu nội dung chưa phản ánh đúng việc mình đã làm.
+
 ## Hiện tượng và dữ kiện ban đầu
 
 Tệp nhật ký cũ chỉ ghi các dòng: "Không hiện ảnh", "Không hiện đúng đường dẫn", "Lỗi trang", "Lỗi sever 404". Tệp không có bước tái hiện, URL cụ thể, ảnh chụp, trình duyệt hoặc kết quả kiểm tra lại. Đây là ghi chú được giữ nguyên từ bản cũ, không phải kết luận rằng các lỗi đó vẫn còn hoặc đã được sửa.
